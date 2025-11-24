@@ -1,0 +1,25 @@
+Love letter html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Letter</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+<h1 class="lang-en">💌 My Love Letter to Mishka</h1>
+<h1 class="lang-ru" style="display:none;">💌 Моё любовное письмо Мишке</h1>
+<div class="lang-toggle">🌎 <button onclick="setLanguage('en')">EN</button> | 🇷🇺 <button onclick="setLanguage('ru')">RU</button></div>
+</header>
+<main>
+<p class="lang-en">Dear Mishka, even though we’re far apart, I feel your love every day. Every chat, every message, every moment thinking of you makes my heart flutter. I can’t wait for the day we meet in person. 💖</p>
+<p class="lang-ru" style="display:none;">Дорогой Мишка, хотя мы далеко друг от друга, я чувствую твою любовь каждый день. Каждое сообщение, каждая мысль о тебе заставляют моё сердце трепетать. Я не могу дождаться дня, когда мы встретимся лично. 💖</p>
+<a href="index.html" class="nav-link lang-en">🏠 Back Home</a>
+<a href="index.html" class="nav-link lang-ru" style="display:none;">🏠 Домой</a>
+</main>
+</body>
+</html>

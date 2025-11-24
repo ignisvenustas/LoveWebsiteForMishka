@@ -1,0 +1,47 @@
+Index html (Homepage)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mishka ❤️</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<script src="hearts.js" defer></script>
+</head>
+<body>
+<header>
+  <h1 class="lang-en">Welcome to a tiny world made just for you 💖</h1>
+  <h1 class="lang-ru" style="display:none;">Добро пожаловать в маленький мир, созданный только для тебя 💖</h1>
+  <div class="lang-toggle">🌎 <button onclick="setLanguage('en')">EN</button> | 🇷🇺 <button onclick="setLanguage('ru')">RU</button></div>
+</header>
+<main>
+  <p class="lang-en">Press the buttons below to send Mishka virtual hugs and kisses across the miles! 💌</p>
+  <p class="lang-ru" style="display:none;">Нажми кнопки ниже, чтобы отправить Мишке виртуальные объятия и поцелуи через километры! 💌</p>
+  <div class="buttons">
+    <button onclick="sendHug()">🤗 Virtual Hug</button>
+    <button onclick="sendKiss()">😘 Virtual Kiss</button>
+  </div>
+  <div id="love-meter"><span>❤️ Love Meter: </span><span id="loveCount">0</span></div>
+  <a href="timeline.html" class="nav-link lang-en">📅 See our timeline</a>
+  <a href="timeline.html" class="nav-link lang-ru" style="display:none;">📅 Посмотреть нашу историю</a>
+  <a href="loveletter.html" class="nav-link lang-en">💌 Love Letter</a>
+  <a href="loveletter.html" class="nav-link lang-ru" style="display:none;">💌 Любовное письмо</a>
+  <a href="reasons.html" class="nav-link lang-en">❤️ 92 Reasons Why I Love You</a>
+  <a href="reasons.html" class="nav-link lang-ru" style="display:none;">❤️ 92 причины, почему я люблю тебя</a>
+  <a href="pet.html" class="nav-link lang-en">🐰 Your Bunny Pet</a>
+  <a href="pet.html" class="nav-link lang-ru" style="display:none;">🐰 Твой питомец-кролик</a>
+  <a href="games.html" class="nav-link lang-en">🎮 Mini Games</a>
+  <a href="games.html" class="nav-link lang-ru" style="display:none;">🎮 Мини-игры</a>
+  <a href="russian.html" class="nav-link lang-en">🇷🇺 Special Russian Section</a>
+  <a href="russian.html" class="nav-link lang-ru" style="display:none;">🇷🇺 Специальная русская страница</a>
+  <a href="secret.html" class="nav-link lang-en">🔒 Secret Surprises</a>
+  <a href="secret.html" class="nav-link lang-ru" style="display:none;">🔒 Секретные сюрпризы</a>
+</main>
+<footer>
+  <p class="lang-en">Made with love from Copenhagen ❤️</p>
+  <p class="lang-ru" style="display:none;">Сделано с любовью из Копенгагена ❤️</p>
+</footer>
+</body>
+</html>

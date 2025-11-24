@@ -1,0 +1,12 @@
+Heart js
+
+function spawnHearts() {
+  const heart = document.createElement('div');
+  heart.className = 'heart';
+  heart.innerText = '❤️';
+  heart.style.left = Math.random() * window.innerWidth + 'px';
+  heart.style.fontSize = (Math.random() * 15 + 15) + 'px';
+  document.body.appendChild(heart);
+  setTimeout(() => heart.remove(), 8000);
+}
+setInterval(spawnHearts, 1000);
